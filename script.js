@@ -113,7 +113,7 @@ pokemon:
 "scyther. i like everything though",
 
 games:
-"roblox · valo · overwatch · rhythm games",
+"roblox · valo · overwatch · fatal frame · final fantasy · minecraft · hsr · rhythm games",
 
 sites:
 "html · css · javascript · learning to design"
@@ -138,5 +138,6 @@ infoText.classList.remove("fade")
 },200)
 
 })
+
 
 })
