@@ -40,7 +40,10 @@ height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
+padding-bottom:120px;
 }
+
+/* layout */
 
 .content{
 display:flex;
@@ -113,6 +116,7 @@ padding-bottom:2px;
 transition:opacity .2s ease;
 }
 
+/* animated underline */
 
 .tab::after{
 content:"";
@@ -125,7 +129,6 @@ background:black;
 transform:translateX(-50%);
 transition:width .25s ease;
 }
-
 
 .tab:hover{
 opacity:.6;
@@ -143,7 +146,7 @@ font-weight:bold;
 width:100%;
 }
 
-/* text */
+/* info text */
 
 .music{
 font-size:14px;
@@ -164,10 +167,12 @@ bottom:0;
 width:100%;
 display:flex;
 justify-content:center;
+pointer-events:none;
 }
 
 .banner img{
 max-height:200px;
+width:auto;
 }
 
 /* mobile */
@@ -182,6 +187,12 @@ transform:scale(1);
 
 .discord img{
 width:240px;
+}
+
+/* smaller banner so tabs remain clickable */
+
+.banner img{
+max-height:110px;
 }
 
 }
