@@ -6,29 +6,69 @@ const lyricLine = document.getElementById("lyricLine")
 /* lyric timing */
 
 const lyrics = [
-{time:25, text:"eyes looking back at me"},
-{time:32, text:"golden skin turns to greed"},
-{time:39, text:"i can't be what i reach for"},
-{time:47.8, text:"a shell you can't adore"},
+{time:8, text:"break and bleed"},
+{time:11.5, text:"what'd you do to me"},
+{time:13.2, text:"i can hardly breathe"},
+{time:16, text:"take and leave all you want from me"},
 
-{time:58, text:"why can't you need me"},
-{time:62, text:"need me like i need you ?"},
-{time:74, text:"why can't you love me"},
-{time:78, text:"love me like you used to ?"},
+{time:21.5, text:"i can hardly feel"},
+{time:24.3, text:"over this time again"},
+{time:26, text:"i don't wanna make amends"},
+{time:28.1, text:"i know it's gonna end"},
 
-{time:89, text:"your eyes, gaze into mine"},
-{time:96.4, text:"but sparks don't seem to fly"},
-{time:102, text:"when i'm around"},
-{time:109, text:"but when you hear her sound"},
-{time:116.4, text:"no matter what i try"},
+{time:30, text:"keep rushing me, rushing me close"},
+{time:32.5, text:"don't think i'm dumb or plain"},
+{time:34, text:"know everything you tried to bend"},
+{time:36.3, text:"but i'll stay quiet hoping that you would- that you would- know"},
+{time:42, text:"i'm done with your lies"},
 
-{time:122.4, text:"why can't you need me"},
-{time:126, text:"need me like i need you"},
-{time:138, text:"why can't you love me"},
-{time:142.5, text:"love me like you used to ?"},
-{time:154.5, text:"i want to feel"},
-{time:160.4, text:"like i belong in my own skin"},
-{time:170, text:"to be enough for you."}
+{time:45.6, text:"say all you want this time"},
+{time:49.5, text:"i wanna go somewhere, far away"},
+{time:56.3, text:"don't wanna keep you close"},
+{time:58, text:"all you do is hurt me most"},
+{time:60.1, text:"one shot it's overdose"},
+{time:62.2, text:"poison feel it in my bones"},
+{time:64.8, text:"to soon to die, no tears to cry"},
+
+{time:72.4, text:"break and bleed"},
+{time:76, text:"what'd you do to me, i can hardly breathe"},
+{time:80, text:"take and leave all you want from me"},
+{time:85.7, text:"i can hardly feel"},
+{time:88.7, text:"over this time again"},
+{time:90, text:"i don't wanna make amends"},
+{time:92, text:"i know it's gonna end, keep rushing me- rushing me- close"},
+
+{time:96, text:"don't think I'm dumb or plain"},
+{time:98, text:"know everything you tried to bend"},
+{time:100, text:"but I'll stay quiet, hoping that you would- that you would- know"},
+{time:104, text:"why have i"},
+{time:107.5, text:"been keeping up with your lies"},
+{time:110, text:"(i'm such a fool right now)"},
+{time:112.4, text:"said goodbye, but you haunting me with your dark eyes"},
+
+{time:120, text:"故事結局要抵達"},
+{time:122.2, text:"他根本不愛她"},
+{time:124, text:"刪掉照片又暗自"},
+{time:126, text:"再載回來像個笑話"},
+{time:128.4, text:"i screwed but realized"},
+{time:130.4, text:"we better off as friends"},
+{time:132, text:"those bruises herb of grace, would it reprise?"},
+
+{time:136, text:"break and bleed"},
+{time:139.1, text:"what'd you do to me"},
+{time:142.5, text:"i can hardly breathe"},
+{time:144, text:"take and leave"},
+{time:147, text:"all you want from me"},
+{time:149, text:"i can hardly feel"},
+{time:151.6, text:"over this time again"},
+
+{time:154.1, text:"i don't want to make amends"},
+{time:156.5, text:"i know it's gonna end, keep rushing me- rushing me- close"},
+{time:160.2, text:"don't think I'm dumb or plain"},
+{time:161.7, text:"know everything you tried to bend"},
+{time:164.4, text:"but I'll stay quiet"},
+{time:165.4, text:"hoping that you would- that you would- know."}
+
 ]
 
 audio.addEventListener("timeupdate",()=>{
@@ -107,16 +147,16 @@ const infoText = document.getElementById("infoText")
 const tabContent = {
 
 music:
-"deftones · clairo · snow strippers · the marias · i listen to everything :p",
+"deftones · clairo · snow strippers · ptv · the marias · i listen to everything :p",
 
 pokemon:
-"scyther. i like everything though",
+"i could name all 800 pokemon if you wanted me to",
 
 games:
-"roblox · valo · overwatch · fatal frame · final fantasy · minecraft · hsr · rhythm games",
+"roblox · valo · overwatch · rhythm games",
 
-sites:
-"html · css · javascript · learning to design"
+about:
+"i'm chronically online, i like music and games & i love my friends."
 
 }
 
@@ -138,6 +178,5 @@ infoText.classList.remove("fade")
 },200)
 
 })
-
 
 })
